@@ -50,6 +50,19 @@ a:-webkit-any-link:focus-visible {
     border-radius: 30px;
 }
 
+.navbar-toggler {
+    background-color: #009ad8;
+    line-height: normal;
+}
+
+.navbar-toggler-icon {
+    height: auto;
+}
+
+.navbar-toggler i {
+    font-size: 25px;
+}
+
 .navbar-nav .nav-item:hover .nav-link {
     color: rgb(0, 154, 216);
     border-color: rgb(0, 154, 216);
@@ -62,9 +75,9 @@ a:-webkit-any-link:focus-visible {
 
 .home {
     background-image: url(../images/banner.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     min-height: 400px;
     position: relative;
 }
@@ -159,22 +172,6 @@ a:-webkit-any-link:focus-visible {
     box-shadow: none;
 }
 
-.content {
-    position: relative;
-}
-
-.content .btn {
-    position: absolute;
-    top: 3px;
-    right: 5px;
-    padding: 15px 40px;
-    color: #fff;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-}
 
 footer {
     background: #262936;
@@ -205,4 +202,19 @@ footer i {
 footer i:hover {
     background-color: #009ad8;
     color: #fff;
+}
+
+
+@media screen and (max-width:769px) {
+    .card-body .degree h2 {
+        font-size: 2.5rem;
+    }
+
+    .navbar-collapse {
+        padding: 15px 0;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 8px;
+    }
 }

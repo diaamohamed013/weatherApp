@@ -67,7 +67,7 @@ function displayWeatherAfter(m) {
                     </div>`
     }
     document.getElementById("myRow").innerHTML += cartona;
-    console.log(cartona);
+    // console.log(cartona);
 }
 
 getWeather("cairo");
